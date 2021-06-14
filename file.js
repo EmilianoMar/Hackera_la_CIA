@@ -10,12 +10,15 @@ var div9 = document.getElementById("div9");
 var div10 = document.getElementById("div10");
 var div11 = document.getElementById("div11");
 var fine = false;
+var fine2 = false;
 var btn = document.getElementById("btn");
 var doge = document.getElementById("doge");
 var body = document.getElementById("Body");
 var skull = document.getElementById("skull");
 
 function hack(){
+   if{!fine2
+   fine2 = true;
    div.style.visibility = "hidden";
    div2.style.visibility = "visible";
    btn.style.visibility = "hidden";
@@ -27,6 +30,7 @@ function hack(){
          return;
       })
    },1000)
+   }
 }
 
 function hack2(){
